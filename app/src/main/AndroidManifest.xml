@@ -21,9 +21,6 @@
         <activity android:name=".MainActivity"
             android:screenOrientation="landscape">
         </activity>
-        <activity android:name=".GameOver"
-            android:screenOrientation="landscape">
-        </activity>
     </application>
 
 </manifest>
