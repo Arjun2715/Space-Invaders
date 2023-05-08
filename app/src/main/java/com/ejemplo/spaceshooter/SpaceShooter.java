@@ -186,7 +186,7 @@ public class SpaceShooter extends View {
             ourSpaceship.ox = touchX;
         }
         if(event.getAction() == MotionEvent.ACTION_MOVE){
-            if(ourShots.size() < 8){
+            if(ourShots.size() <3){
                 Shot ourShot = new Shot(context, ourSpaceship.ox + ourSpaceship.getOurSpaceshipWidth() / 2, ourSpaceship.oy);
                 ourShots.add(ourShot);
             }
